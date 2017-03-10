@@ -103,6 +103,22 @@ a.btn-default:hover {
     letter-spacing: 2px;
 }
 
+/* Project section */
+
+.techButtons {
+    background-color: #cfcfcf;
+    border-radius: 4px;
+    color: black;
+    display: inline-block;
+    font-size: .7em;
+    margin: 0 2px 5px 0;
+    padding: 8px;
+}
+
+.img-responsive {
+    border-radius: 15px;
+}
+
 .content-section-a {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -116,6 +132,10 @@ a.btn-default:hover {
 
 .section-heading {
     margin-bottom: 30px;
+}
+
+.section-heading a {
+    color: black;
 }
 
 .section-heading-spacer {
