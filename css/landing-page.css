@@ -103,6 +103,10 @@ a.btn-default:hover {
     letter-spacing: 2px;
 }
 
+#aboutText {
+    text-align: left;
+}
+
 /* Project section */
 
 .techButtons {
@@ -145,10 +149,19 @@ a.btn-default:hover {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 175px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/train-tracks.jpg) no-repeat center center;
     background-size: cover;
+}
+
+.bgDiv2 {
+    background-color: rgba(0,0,0,.9);
+    border-radius: 15px;
+    max-width: 770px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
 }
 
 .banner h2 {
@@ -169,8 +182,15 @@ a.btn-default:hover {
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
-        margin-top: 15px;
     }
+}
+
+#trainBanner {
+    margin-top: 15px;
+}
+
+#myEmail {
+    color: #f8f8f8;
 }
 
 @media(max-width:767px) {

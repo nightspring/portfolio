@@ -1,0 +1,66 @@
+body {
+	/* background-image: url(../img/sun.jpeg); */
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	transition: background 1s linear;
+  	padding-top: 50px;
+}
+
+
+
+.starter-template {
+	background: rgba(0,0,0,.7);
+	border-radius: 20px;
+	color: #fff;
+  	margin-top: 90px;
+  	padding: 20px;
+  	text-align: center;
+}
+
+.container {
+	max-width: 900px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+.currentCels {
+	display: none;
+}
+
+.letterC {
+	display: none;
+}
+
+
+form {
+	color: black;
+}
+
+input[type=text] {
+	border-radius: 4px;
+	width: 75px;
+	margin: 0 4px 15px 4px;
+	padding: 5px;
+	text-align: center;
+}
+
+input[type=submit] {
+	background: #D3D3D3;
+	border-radius: 4px;
+	padding: 4px;
+	width: 65px;
+}
+
+p {
+	font-size: .8em;
+}
+
+p a,
+p a:hover {
+	color: #fff;
+	text-decoration: none;
+}

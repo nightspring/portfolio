@@ -1,0 +1,99 @@
+body {
+	background-color: #333C4B;
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bodyWrap {
+	min-width: 400px;
+}
+
+h1 {
+	font-size: 4em;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#announce {
+	font-size: 2em;
+}
+
+.underLine {
+	border-top: 1px solid white;
+	margin: auto;
+	width: 300px;
+}
+
+.gameBoard {
+	color: black;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	width: 400px;
+}
+
+
+
+.playerChoose {
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+}
+
+
+#playAgain {
+	background-color: #EBEBF2;
+	border-radius: 5px;
+	font-size: 24px;
+	color: black;
+	padding: 20px;
+}
+
+a {
+	background-color: #EBEBF2;
+	border-radius: 5px;
+	font-size: 24px;
+	color: black;
+	margin: 5px;
+	padding: 20px 40px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#X,
+#O {
+	color: black;
+	height: 100px;
+	width: 100px;
+}
+
+.playAgain {
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+button {
+	background-color: #EBEBF2;
+	border: none;
+	border-radius: 5px;
+	color: #EBEBF2;
+	font-size: 72px;
+	height: 100px;
+	margin: 2px;
+	text-align: center;
+	width: 100px;
+}
+
+button:focus {
+	outline: none;
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+}

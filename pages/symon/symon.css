@@ -1,0 +1,206 @@
+body {
+	background-color: #292725;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.pageWrap {
+	position: relative;
+	margin: auto;
+	width: 600px;
+	min-width: 600px;
+}
+
+.buttonWrap {
+	height: 540px;
+	position: relative;
+	margin: auto;
+	margin-top: 80px;
+	text-align: center;
+	width: 580px;
+	min-width: 580px;
+}
+
+.push {
+	border: 18px solid #0F0F0F;
+	height: 250px;
+	margin: -3px;
+	position: relative;
+	width: 250px;
+}
+
+.top-left {
+	border-top-left-radius: 100%;
+}
+
+.top-right {
+	border-top-right-radius: 100%;
+}
+
+.bottom-right {
+	border-bottom-left-radius: 100%;
+}
+
+.bottom-left {
+	border-bottom-right-radius: 100%;
+}
+
+
+.controls {
+	background: #FFF7F1;
+	border: 18px solid #0F0F0F;
+	-moz-border-radius: 130px;
+	-webkit-border-radius: 130px;
+	border-radius: 130px;
+	height: 260px;
+	left: 50%;
+	margin: -167px 0 0 -130px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 260px;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 37px;
+	position: relative;
+	text-align: center;
+}
+
+.controlBox {
+	height: 65px;
+	position: relative;
+	width: 55px;
+}
+
+.startButton {
+	background-color: #E32817;
+	border: 3px solid #0F0F0F;
+	border-radius: 100%;
+	height: 28px;
+	margin: auto;
+	text-align: center;
+	top: -15px;
+	width: 28px;
+}
+
+.strictLED {
+	background-color: black;
+	border: 2px solid #0F0F0F;
+	border-radius: 100%;
+	height: 10px;
+	margin: auto;
+	margin-bottom: 3px;
+	text-align: center;
+	width: 10px;
+}
+
+.strictButton {
+	background-color: #FFD81E;
+	border: 3px solid #0F0F0F;
+	border-radius: 100%;
+	height: 28px;
+	margin: auto;
+	text-align: center;
+	width: 28px;
+}
+
+.counter {
+	background-color: #0F0F0F;
+	border-radius: 10px;
+	color: #E32817;
+	font-size: 24px;
+	height: 40px;
+	margin: auto;
+	margin-bottom: -5px;
+	padding: 7px;
+
+}
+
+h5 {
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+h6 {
+	width: 32px;
+}
+
+.onOff {
+	margin: auto;
+	text-align: center;
+}
+
+.OffButton {
+	background-color: blue;
+	height: 15px;
+	text-align: center;
+	margin: -2px;
+	width: 15px;
+}
+
+.OnButton {
+	background-color: black;
+	height: 15px;
+	text-align: center;
+	margin: -2px;
+	width: 15px;
+}
+
+
+.green {
+	background-color: #0DE80E;
+}
+
+.green.light {
+	background-color: #9DFF94;
+}
+
+.red {
+	background-color: #E8503D;
+}
+
+.red.light {
+	background-color: #E89593;
+}
+
+.blue {
+	background-color: #5A5FFF;
+}
+
+.blue.light {
+	background-color: #5AACFF;
+}
+
+.yellow {
+	background-color: #FFDF5F;
+}
+
+.yellow.light {
+	background-color: #FFFFC9;
+}
+
+.footnote {
+	margin: auto;
+	margin-top: 0;
+	text-align: center;
+}
+
+a {
+	color: #FFF7F1;
+}
+
+a:hover {
+	color: #FFF7F1;
+	text-decoration: none;
+}
+
+.clickable {
+	cursor: pointer;
+	pointer-events: auto;
+}
+

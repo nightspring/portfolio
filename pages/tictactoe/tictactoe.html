@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tic Tac Toe</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+    <link href="tictactoe.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='bodyWrap'>
+    <h1>Tic Tac Toe</h1>
+    <div class="underLine"></div>
+
+   <!-- Shows upon game win/lose/draw -->
+    <h1 id="announce"></h1>
+    <div class="playAgain">
+    	<a id="playAgain">Play again</a>
+    </div>
+
+    <!-- Shows to allow player to pick X or O -->
+    <div class="playerChoose">
+    	
+    	<h2>Choose X or O:</h2>
+    	<br><br>
+    	<a id='X'>X</a>
+    	<a id='O'>O</a>
+    </div>
+
+    <div class="gameBoard">
+    	<div class="row">
+	    	<button id="1" value="1">X</button>
+	    	<button id="2" value="2">X</button>
+	    	<button id="3" value="3">X</button>
+    	</div>
+    	<div class="row">
+	    	<button id="4" value="4">X</button>
+	    	<button id="5" value="5">X</button>
+	    	<button id="6" value="6">X</button>
+    	</div>
+    	<div class="row">
+	    	<button id="7" value="7">X</button>
+	    	<button id="8" value="8">X</button>
+	    	<button id="9" value="9">X</button>
+    	</div>
+
+    </div>
+
+
+    
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
