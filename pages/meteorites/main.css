@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	background-color: #EDEDED;
+	font-family: 'Spectral', serif;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+h2 {
+	margin-top: 1%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.home-link {
+	margin: auto;
+	margin: 5px;
+	text-align: center;
+}
+
+a {
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+span {
+	text-decoration: underline;
+}
